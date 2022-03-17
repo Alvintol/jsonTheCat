@@ -14,13 +14,11 @@ const breedFetcher = (urlSearch) => {
     if (recievedData.length === 0) {
       console.log('No Breed of that kind. Try another search!');
     }
-    for (const info in recievedData) {    
-      if (recievedData[info].description === undefined) {
+    if (recievedData[0].description === undefined) {
       console.error('Error has occured. Please check search params');
       return
     }
-      console.log(recievedData[info].description)
-    }
+    console.log(recievedData[0].description)
   })
 };
 
