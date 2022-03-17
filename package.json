@@ -1,0 +1,23 @@
+{
+  "name": "jsonthecat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "breedFetcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvintol/jsonTheCat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alvintol/jsonTheCat/issues"
+  },
+  "homepage": "https://github.com/Alvintol/jsonTheCat#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
